@@ -1,0 +1,67 @@
+.tudo{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+
+    width: 40%;
+    height: 80%;
+
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: #FF9600;
+
+}
+
+h1{
+    font-size: 290%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+label{
+    font-size: 100%;
+}
+
+.LMarca{
+    margin-left: -45%;
+}
+
+.LModelo{
+    margin-left: -44%;
+}
+
+.LPreco{
+    margin-left: -41%;
+}
+
+.LKm{
+    margin-left: -33%;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 3px;
+    font-size: 120%;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    align-items: left;
+}
+
+button{
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+    width: 20%;
+    height: 20%;
+    font-size: 100%;
+
+    background-color: #FFCE88;
+}

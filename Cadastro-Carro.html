@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu carro</title>
+    <link rel="stylesheet" href="Cadastro-Carro.css">
+    <script src="Cadastro-Carro.js"></script>
+</head>
+<body>
+    
+    <div class="tudo">
+        <h1>Cadastre seu veículo</h1> <br>
+
+        <div class="MarcaCarro">
+            <label class="LMarca">Marca</label> 
+            <br> 
+            <input type="text" id="MarcaCarro">
+        </div>
+
+        <div class="ModeloCarro">
+            <label class="LModelo">Modelo</label> 
+            <br> 
+            <input type="text" id="ModeloCarro">
+        </div>
+
+        <div class="PrecoCarro">
+            <label class="LPreco">Preço (R$)</label>
+            <br>
+            <input type="number" id="PrecoCarro">
+        </div>
+
+        <div class="KmRodados">
+            <label class="LKm">Quilometros rodados</label>
+            <br>
+            <input type="number" id="KmRodados">
+        </div>
+
+        <button onclick="CadastrarCarro()">Cadastrar</button>
+
+    </div>
+</body>
+</html>
